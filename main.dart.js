@@ -15122,9 +15122,11 @@ this.b=b},
 IR:function IR(){},
 aob(){return new T.tg(new S.Ur(),P.w(t.K,t.oc))},
 a0I:function a0I(a){this.b=a},
-tX:function tX(a,b,c){this.e=a
-this.fx=b
-this.a=c},
+tX:function tX(a,b,c,d){var _=this
+_.e=a
+_.dy=b
+_.fx=c
+_.a=d},
 Ur:function Ur(){},
 Uu:function Uu(){},
 xq:function xq(a){var _=this
@@ -17112,9 +17114,11 @@ break
 case 1:return P.a4(q,r)}})
 return P.a5($async$No,r)}},V={v9:function v9(a){this.b=a},vp:function vp(a){this.a=a},Le:function Le(a){this.a=null
 this.b=a
-this.c=null},a4X:function a4X(a,b,c){this.a=a
-this.b=b
-this.c=c},a4V:function a4V(a){this.a=a},a4W:function a4W(a){this.a=a},n_:function n_(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
+this.c=null},a4X:function a4X(a,b,c,d){var _=this
+_.a=a
+_.b=b
+_.c=c
+_.d=d},a4V:function a4V(a){this.a=a},a4W:function a4W(a){this.a=a},n_:function n_(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.a=a
 _.b=b
 _.c=c
@@ -35437,7 +35441,7 @@ if(b==="?"){r.p(0,a,this.b);++s.b}else r.p(0,a,b)},
 $S:71}
 F.D5.prototype={
 O(a,b){var s=null
-return new S.tX(new T.rj(new Y.pN(new F.V6(),s,s,s,F.aue(),T.atn(),t.c6),s,s,C.FQ,s,t.E6),X.af_(C.wp,C.k,C.a_,"Gmarket_Sans",C.k,C.EP,C.k,X.aff()),s)}}
+return new S.tX(new T.rj(new Y.pN(new F.V6(),s,s,s,F.aue(),T.atn(),t.c6),s,s,C.FQ,s,t.E6),"N-Limbo's Album Cover Downloader",X.af_(C.wp,C.k,C.a_,"Gmarket_Sans",C.k,C.EP,C.k,X.aff()),s)}}
 F.V6.prototype={
 $1(a){return new M.hW(H.a([],t.Cd),P.ag(0,null,!1,t.Z))},
 $S:137}
@@ -35504,16 +35508,21 @@ r=l?C.fU:C.fV
 r=E.acD(new Q.E7(new T.dY(r,new Z.vX(C.B1,C.HF,C.aR,C.Hc,C.Hd,C.KP,new V.a4V(n),o),o),C.H7,o),!0,C.Fk)
 if(!n.a)l=C.jD
 else{l=l?C.fU:C.fV
-q=new V.a4X(this,m,s).$0()
+q=new V.a4X(this,m,s,n).$0()
 p=n.b.length
 l=E.a9R(new T.dY(l,M.jn(o,new B.Cb(new B.a_m(q,18,12,0.75),new G.a_h(new V.a4W(n),p,!0,!0,!0),C.bx,C.n,!1,o,!0,C.F2,!0,o,p,C.at,C.FM,o,C.Q,o),o,o,o,C.fT,o,o),o),o,C.n)}return M.aeC(r,T.ri(l,o,o))}}
 V.a4X.prototype={
 $0(){var s=this.c===C.hM,r=s?512:64,q=this.b.a-r
-if(s){s=C.d.cf(q,200)
-s=s<5?s:5
-return 1>s?1:s}else{s=C.d.cf(q,250)
-s=s<4?s:4
-return 1>s?1:s}},
+r=this.d.b
+if(s){s=r.length
+r=C.d.cf(q,200)
+r=r<5?r:5
+if(1>r)r=1
+return s<r?s:r}else{s=r.length
+r=C.d.cf(q,250)
+r=r<4?r:4
+if(1>r)r=1
+return s<r?s:r}},
 $S:30}
 V.a4V.prototype={
 $1(a){this.a.q1(0,a)},
@@ -38051,13 +38060,14 @@ o=s.fx
 s.toString
 s=b==null?C.di:b
 return new M.v7(new K.qW(o,s,C.bc,C.ae,m,m),m)},
-Uu(a){var s,r=this,q=null,p=r.a,o=p.fx
-o=o.b
-s=o
-p=p.e
-o=r.gFl()
-r.a.toString
-return new S.wj(q,q,q,new S.a3v(),q,q,q,q,p,C.EC,q,q,C.Ce,r.gZu(),"",q,C.Ie,s,q,o,q,q,C.ki,!1,!1,!1,!1,r.gZb(),!0,q,q,q,!1,new N.jt(r,t.l9))},
+Uu(a){var s,r,q=this,p=null,o=q.a,n=o.fx
+n=n.b
+s=n
+n=o.e
+o=o.dy
+r=q.gFl()
+q.a.toString
+return new S.wj(p,p,p,new S.a3v(),p,p,p,p,n,C.EC,p,p,C.Ce,q.gZu(),o,p,C.Ie,s,p,r,p,p,C.ki,!1,!1,!1,!1,q.gZb(),!0,p,p,p,!1,new N.jt(q,t.l9))},
 O(a,b){var s,r=null,q=L.RP(!1,!1,this.Uu(b),r,!0,r,!0,r,r,new S.a3w(),r,r)
 this.a.toString
 s=this.d
